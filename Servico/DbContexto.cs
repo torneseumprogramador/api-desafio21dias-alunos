@@ -8,6 +8,7 @@ namespace api_desafio21dias.Servicos
   {
     public DbContexto(DbContextOptions<DbContexto> options) : base(options) { }
 
+    public DbSet<Fornecedor> Fornecedores { get; set; }
     public DbSet<Aluno> Alunos { get; set; }
   }
 }
