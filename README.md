@@ -16,7 +16,7 @@
 ``` bash
   code .gitignore 
 ```
-### gerei o conteúdo para ignorar como (Windows, Linux, Mac, DotnetCore, VisualStudioCore) no link: https://www.toptal.com/developers/gitignore
+#### Gerei o conteúdo para ignorar como (Windows, Linux, Mac, DotnetCore, VisualStudioCore) no link: https://www.toptal.com/developers/gitignore
 - Criei o repositório e rodei os comandos
 
 ``` bash
