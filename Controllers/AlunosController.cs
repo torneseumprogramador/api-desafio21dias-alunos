@@ -59,9 +59,9 @@ namespace api_desafio21dias.Controllers
             {
                 _context.Add(aluno);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return StatusCode(201, aluno);
             }
-            return StatusCode(201, aluno);
+            return BadRequest();
         }
 
         // PUT: /alunos/5
