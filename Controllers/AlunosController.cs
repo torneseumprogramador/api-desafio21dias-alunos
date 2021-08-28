@@ -8,10 +8,12 @@ using Microsoft.EntityFrameworkCore;
 using api_desafio21dias.Models;
 using api_desafio21dias.Servicos;
 using EntityFrameworkPaginateCore;
+using web_renderizacao_server_side.Helpers;
 
 namespace api_desafio21dias.Controllers
 {
     [ApiController]
+    [Logado]
     public class AlunosController : ControllerBase
     {
         private readonly DbContexto _context;
