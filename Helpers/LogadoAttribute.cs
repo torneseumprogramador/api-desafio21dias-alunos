@@ -31,6 +31,7 @@ namespace web_renderizacao_server_side.Helpers
 
             HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Head, "/token");
             var response = http.Send(request);
+
             if(response.StatusCode != HttpStatusCode.NoContent){
                 filterContext.Result = new StatusCodeResult(StatusCodes.Status401Unauthorized);
                 return;
